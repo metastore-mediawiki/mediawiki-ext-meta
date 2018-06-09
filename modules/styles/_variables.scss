@@ -1,0 +1,20 @@
+/*!
+ * @package			variables
+ * @version			1.0.0
+ * @category		css.global
+ * @author			Kitsune Solar
+ * @copyright		METADATA Foundation
+ * ------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------< SCRIPT >---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+$global-font-family: 		'Roboto', 'Helvetica', 'Arial', sans-serif;
+$header-font-family: 		'Roboto Condensed', sans-serif;
+
+$content-font-family: 		$global-font-family;
+$content-font-size: 		inherit;
+
+$mono-font-family: 			'Fira Mono', monospace;
+$editor-font-family: 		$mono-font-family;

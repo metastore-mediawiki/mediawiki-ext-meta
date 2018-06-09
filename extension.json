@@ -1,0 +1,100 @@
+{
+	"name": "MW_EXT_Meta",
+	"version": "1.0.0",
+	"author": [
+		"[https://kitsune.solar/ Kitsune Solar]",
+		"[https://metastore.pro/ METASTORE]",
+		"..."
+	],
+	"url": "https://metastore.pro/",
+	"descriptionmsg": "mw-ext-meta-desc",
+	"license-name": "[https://www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+	"type": "other",
+	"require": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"config": {
+		"EXT_Meta_FA_Version": {
+			"value": "5.0.13"
+		}
+	},
+	"namespaces": [
+		{
+			"id": 100000,
+			"constant": "NS_EXT_SANDBOX",
+			"name": "Sandbox",
+			"subpages": true
+		},
+		{
+			"id": 100001,
+			"constant": "NS_EXT_SANDBOX_TALK",
+			"name": "Sandbox_talk"
+		},
+		{
+			"id": 100010,
+			"constant": "NS_EXT_DRAFT",
+			"name": "Draft",
+			"subpages": true
+		},
+		{
+			"id": 100011,
+			"constant": "NS_EXT_DRAFT_TALK",
+			"name": "Draft_talk"
+		}
+	],
+	"AddGroups": {
+		"bureaucrat": [
+			"editor"
+		]
+	},
+	"RemoveGroups": {
+		"bureaucrat": [
+			"editor"
+		]
+	},
+	"AutoloadClasses": {
+		"MW_EXT_Meta": "MW_EXT_Meta.class.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"MW_EXT_Meta::onBeforePageDisplay"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MW_EXT_MetaNamespaces": "MW_EXT_Meta.namespaces.php"
+	},
+	"MessagesDirs": {
+		"MW_EXT_Meta": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.mw.meta": {
+			"scripts": [
+				"scripts/functions.min.js",
+				"scripts/plugins.min.js",
+				"scripts/typography.min.js"
+			],
+			"position": "bottom",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.mw.meta.styles": {
+			"styles": [
+				"styles/theme.css"
+			],
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MW_EXT_Meta/modules"
+	},
+	"manifest_version": 2
+}

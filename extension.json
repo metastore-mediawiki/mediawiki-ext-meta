@@ -11,7 +11,7 @@
 	"license-name": "[https://www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
 	"type": "other",
 	"require": {
-		"MediaWiki": ">= 1.30.0"
+		"MediaWiki": ">= 1.31.0"
 	},
 	"config": {
 		"EXT_Meta_FA_Version": {
@@ -53,15 +53,15 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MW_EXT_Meta": "MW_EXT_Meta.class.php"
+		"MediaWiki\\Extension\\MW_EXT_Meta\\MW_EXT_Meta": "MW_EXT_Meta.class.php"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"MW_EXT_Meta::onBeforePageDisplay"
+			"MediaWiki\\Extension\\MW_EXT_Meta\\MW_EXT_Meta::onBeforePageDisplay"
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"MW_EXT_MetaNamespaces": "MW_EXT_Meta.namespaces.php"
+		"MW_EXT_MetaNamespaces": "MW_EXT_Meta.i18n.namespaces.php"
 	},
 	"MessagesDirs": {
 		"MW_EXT_Meta": [

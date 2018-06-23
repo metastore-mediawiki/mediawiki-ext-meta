@@ -43,10 +43,6 @@ a {
 	}
 }
 
-.mw-body {
-	//color: #444;
-}
-
 #p-logo a {
 	background-size: contain;
 }
@@ -67,7 +63,7 @@ a {
 	min-width: 30em;
 	border: none;
 	background: hsl(0, 0%, 98%);
-	border-left: 3px solid hsl(0, 0%, 86%);
+	border-left: .3em solid hsl(0, 0%, 86%);
 	padding: 1em;
 	margin: 1em 0;
 	.toctitle {

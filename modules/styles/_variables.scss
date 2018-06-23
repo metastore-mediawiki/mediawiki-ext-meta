@@ -10,11 +10,14 @@
 /* ----------------------------------------------------< SCRIPT >---------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------ */
 
+$sans-font-family: 			'Roboto', 'Helvetica', 'Arial', sans-serif;
+$serif-font-family:			'Georgia', 'Times New Roman', 'Times', serif;
+$mono-font-family: 			'Fira Mono', monospace;
+
 $global-font-family: 		'Roboto', 'Helvetica', 'Arial', sans-serif;
 $header-font-family: 		'Roboto Condensed', sans-serif;
-
 $content-font-family: 		$global-font-family;
 $content-font-size: 		inherit;
-
-$mono-font-family: 			'Fira Mono', monospace;
+$story-font-family: 		$serif-font-family;
+$story-font-size: 			1.2em;
 $editor-font-family: 		$mono-font-family;

@@ -4,5 +4,5 @@ span.subpages {
 
 #contentSub,
 #contentSub2 {
-	overflow: hidden;
+	@include clearfix();
 }

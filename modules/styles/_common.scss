@@ -20,18 +20,6 @@ body {
 	font-family: $global-font-family;
 }
 
-.clearfix {
-	&:before {
-		display: table;
-		content: '';
-	}
-	&:after {
-		display: table;
-		clear: both;
-		content: '';
-	}
-}
-
 a {
 	text-decoration: none;
 	&:hover {
@@ -63,7 +51,7 @@ a {
 	min-width: 30em;
 	border: none;
 	background: hsl(0, 0%, 98%);
-	border-left: .3em solid hsl(0, 0%, 86%);
+	border-left: 3px solid hsl(0, 0%, 86%);
 	padding: 1em;
 	margin: 1em 0;
 	.toctitle {
@@ -88,17 +76,6 @@ a {
 	}
 }
 
-.mw-body .mw-editsection,
-.mw-body .mw-editsection-like {
-	font-family: $global-font-family;
-}
-
-.mw-body {
-	div[class^='col-'] {
-		box-sizing: border-box;
-	}
-}
-
 .thumb {
-	box-shadow: 0 .2em .3em rgba(10, 10, 10, .1);
+	box-shadow: 0 2px 3px rgba(10, 10, 10, .1);
 }

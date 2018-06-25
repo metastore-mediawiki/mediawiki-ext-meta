@@ -98,7 +98,7 @@ div.mw-highlight {
 	$background_color: hsl(0, 0%, 96%);
 	$border_color: hsl(0, 0%, 86%);
 	background: $background_color;
-	box-shadow: 0 2px 3px rgba(10, 10, 10, .1);
+	box-shadow: 0 .2em .3em rgba(10, 10, 10, .1);
 	border: .1em solid $border_color;
 	max-height: 20rem;
 	margin: 1em 0;

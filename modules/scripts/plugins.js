@@ -2,8 +2,7 @@
 
 /**
  * WikiEditor. Submit post.
-  */
-
+ */
 function extJS_submitPost() {
 	let formItems = [
 		'#editform',
@@ -22,8 +21,7 @@ function extJS_submitPost() {
 
 /**
  * WikiEditor. Wikificator.
-  */
-
+ */
 function extJS_wikiFicator() {
 	if ($.inArray(mw.config.get('wgAction'), ['edit', 'submit']) !== -1) {
 		mw.loader.load('https://ru.wikipedia.org/w/index.php?title=MediaWiki:Gadget-wikificator.js&action=raw&ctype=text/javascript');
@@ -63,8 +61,7 @@ function extJS_wikiFicator() {
 
 /**
  * WikiEditor. Summary buttons.
-  */
-
+ */
 function extJS_summaryButtons() {
 	if ($.inArray(mw.config.get('wgAction'), ['edit', 'submit']) !== -1) {
 		mw.loader.load('https://ru.wikipedia.org/w/load.php?modules=ext.gadget.summaryButtons');
@@ -73,8 +70,7 @@ function extJS_summaryButtons() {
 
 /**
  * Loading functions.
-  */
-
+ */
 $(function () {
 	extJS_submitPost();
 	extJS_wikiFicator();

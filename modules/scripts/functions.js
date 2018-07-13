@@ -2,9 +2,8 @@
 
 /**
  * Slide & fade toggle.
-  */
-
-jQuery.fn.slideFadeToggle = function(speed, easing, callback) {
+ */
+jQuery.fn.slideFadeToggle = function (speed, easing, callback) {
 	return this.animate(
 		{
 			opacity: 'toggle',

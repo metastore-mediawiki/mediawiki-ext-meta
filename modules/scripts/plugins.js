@@ -2,7 +2,7 @@
 
 /**
  * WikiEditor. Submit post.
- * ------------------------------------------------------------------------------------------------------------------ */
+  */
 
 function extJS_submitPost() {
 	let formItems = [
@@ -22,7 +22,7 @@ function extJS_submitPost() {
 
 /**
  * WikiEditor. Wikificator.
- * ------------------------------------------------------------------------------------------------------------------ */
+  */
 
 function extJS_wikiFicator() {
 	if ($.inArray(mw.config.get('wgAction'), ['edit', 'submit']) !== -1) {
@@ -63,7 +63,7 @@ function extJS_wikiFicator() {
 
 /**
  * WikiEditor. Summary buttons.
- * ------------------------------------------------------------------------------------------------------------------ */
+  */
 
 function extJS_summaryButtons() {
 	if ($.inArray(mw.config.get('wgAction'), ['edit', 'submit']) !== -1) {
@@ -73,7 +73,7 @@ function extJS_summaryButtons() {
 
 /**
  * Loading functions.
- * ------------------------------------------------------------------------------------------------------------------ */
+  */
 
 $(function () {
 	extJS_submitPost();

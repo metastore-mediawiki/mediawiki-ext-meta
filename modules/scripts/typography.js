@@ -2,7 +2,7 @@
 
 /**
  * WikiEditor. Spoiler.
- * ------------------------------------------------------------------------------------------------------------------ */
+  */
 
 function extJS_bbcSpoiler() {
 	let spoilerWrapper = 'div.bbc-spoiler';
@@ -43,7 +43,7 @@ function extJS_bbcSpoiler() {
 
 /**
  * Loading functions.
- * ------------------------------------------------------------------------------------------------------------------ */
+  */
 
 $(function () {
 	extJS_bbcSpoiler();

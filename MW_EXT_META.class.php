@@ -1,13 +1,13 @@
 <?php
 
-namespace MediaWiki\Extension\METADATA;
+namespace MediaWiki\Extension\MetaStore;
 
 use OutputPage, Skin;
 
 /**
- * Class MW_EXT_Meta
+ * Class MW_EXT_META
  */
-class MW_EXT_Meta {
+class MW_EXT_META {
 
 	/**
 	 * Load resource function.

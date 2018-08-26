@@ -1,5 +1,5 @@
 {
-	"name": "MW_EXT_Meta",
+	"name": "MW_EXT_META",
 	"version": "1.0.0",
 	"author": [
 		"[https://kitsune.solar/ Kitsune Solar]",
@@ -18,26 +18,81 @@
 	},
 	"namespaces": [
 		{
-			"id": 100000,
+			"id": 1000000010,
 			"constant": "NS_EXT_SANDBOX",
 			"name": "Sandbox",
 			"subpages": true
 		},
 		{
-			"id": 100001,
+			"id": 1000000011,
 			"constant": "NS_EXT_SANDBOX_TALK",
 			"name": "Sandbox_talk"
 		},
 		{
-			"id": 100010,
+			"id": 1000000020,
 			"constant": "NS_EXT_DRAFT",
 			"name": "Draft",
 			"subpages": true
 		},
 		{
-			"id": 100011,
+			"id": 1000000021,
 			"constant": "NS_EXT_DRAFT_TALK",
 			"name": "Draft_talk"
+		},
+		{
+			"id": 1000000030,
+			"constant": "NS_EXT_BLOG",
+			"name": "Blog",
+			"subpages": true
+		},
+		{
+			"id": 1000000031,
+			"constant": "NS_EXT_BLOG_TALK",
+			"name": "Blog_talk"
+		},
+		{
+			"id": 1000000040,
+			"constant": "NS_EXT_NEWS",
+			"name": "News",
+			"subpages": true
+		},
+		{
+			"id": 1000000041,
+			"constant": "NS_EXT_NEWS_TALK",
+			"name": "News_talk"
+		},
+		{
+			"id": 1000000050,
+			"constant": "NS_EXT_EXTENSION",
+			"name": "Extension",
+			"subpages": true
+		},
+		{
+			"id": 1000000051,
+			"constant": "NS_EXT_EXTENSION_TALK",
+			"name": "Extension_talk"
+		},
+		{
+			"id": 1000000060,
+			"constant": "NS_EXT_THEME",
+			"name": "Theme",
+			"subpages": true
+		},
+		{
+			"id": 1000000061,
+			"constant": "NS_EXT_THEME_TALK",
+			"name": "Theme_talk"
+		},
+		{
+			"id": 1000000070,
+			"constant": "NS_EXT_PORTAL",
+			"name": "Portal",
+			"subpages": true
+		},
+		{
+			"id": 1000000071,
+			"constant": "NS_EXT_PORTAL_TALK",
+			"name": "Portal_talk"
 		}
 	],
 	"AddGroups": {
@@ -51,24 +106,24 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\METADATA\\MW_EXT_Meta": "MW_EXT_Meta.class.php"
+		"MediaWiki\\Extension\\MetaStore\\MW_EXT_META": "MW_EXT_META.class.php"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"MediaWiki\\Extension\\METADATA\\MW_EXT_Meta::onBeforePageDisplay"
+			"MediaWiki\\Extension\\MetaStore\\MW_EXT_META::onBeforePageDisplay"
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"MW_EXT_MetaNamespaces": "MW_EXT_Meta.i18n.namespaces.php"
+		"MW_EXT_METANamespaces": "MW_EXT_META.i18n.namespaces.php"
 	},
 	"MessagesDirs": {
-		"MW_EXT_Meta": [
+		"MW_EXT_META": [
 			"i18n"
 		]
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "modules",
-		"remoteExtPath": "MW_EXT_Meta/modules"
+		"remoteExtPath": "MW_EXT_META/modules"
 	},
 	"manifest_version": 2
 }

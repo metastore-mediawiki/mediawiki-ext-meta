@@ -31,7 +31,7 @@
 	},
 	"autoload": {
 		"classmap": [
-			"MW_EXT_Meta.class.php"
+			"MW_EXT_META.class.php"
 		]
 	},
 	"config": {
@@ -39,6 +39,6 @@
 		"prepend-autoloader": false
 	},
 	"extra": {
-		"installer-name": "MW_EXT_Meta"
+		"installer-name": "MW_EXT_META"
 	}
 }

@@ -10,11 +10,11 @@
 
 ## Установка
 
-1. Загрузите папки и файлы в директорию `extensions/MW_EXT_Meta`.
+1. Загрузите папки и файлы в директорию `extensions/MW_EXT_META`.
 2. В самый низ файла `LocalSettings.php` добавьте строку:
 
 ```
-wfLoadExtension( 'MW_EXT_Meta' );
+wfLoadExtension( 'MW_EXT_META' );
 ```
 
 ## Авторы

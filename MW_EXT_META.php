@@ -6,11 +6,11 @@ if ( ! defined( 'MEDIAWIKI' ) ) {
 }
 
 if ( function_exists( 'wfLoadExtension' ) ) {
-	wfLoadExtension( 'MW_EXT_Meta' );
+	wfLoadExtension( 'MW_EXT_META' );
 	// Keep i18n globals so mergeMessageFileList.php doesn't break.
-	$wgExtensionMessagesFiles['MW_EXT_Meta'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['MW_EXT_META'] = __DIR__ . '/i18n';
 
 	return true;
 } else {
-	die( 'This version of the MW_EXT_Meta extension requires MediaWiki 1.30+' );
+	die( 'This version of the MW_EXT_META extension requires MediaWiki 1.30+' );
 }

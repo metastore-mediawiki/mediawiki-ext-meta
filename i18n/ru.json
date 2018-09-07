@@ -5,7 +5,7 @@
 		]
 	},
 	"group-editor": "Редакторы",
-	"group-editor-member": "{{GENDER:$1|Редактор}}",
+	"group-editor-member": "{{GENDER:$1|редактор}}",
 	"grouppage-editor": "{{ns:project}}:Редакторы",
 	"mw-ext-meta-desc": "Интеграция дополнительных элементов в движок MediaWiki. Специально для проектов [METADATA / FOUNDATION https://metadata.foundation/]."
 }

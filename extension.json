@@ -43,7 +43,8 @@
 			"id": 1000000030,
 			"constant": "NS_EXT_BLOG",
 			"name": "Blog",
-			"subpages": true
+			"subpages": true,
+			"content": true
 		},
 		{
 			"id": 1000000031,
@@ -54,7 +55,8 @@
 			"id": 1000000040,
 			"constant": "NS_EXT_NEWS",
 			"name": "News",
-			"subpages": true
+			"subpages": true,
+			"content": true
 		},
 		{
 			"id": 1000000041,
@@ -65,7 +67,8 @@
 			"id": 1000000050,
 			"constant": "NS_EXT_EXTENSION",
 			"name": "Extension",
-			"subpages": true
+			"subpages": true,
+			"content": true
 		},
 		{
 			"id": 1000000051,
@@ -76,7 +79,8 @@
 			"id": 1000000060,
 			"constant": "NS_EXT_THEME",
 			"name": "Theme",
-			"subpages": true
+			"subpages": true,
+			"content": true
 		},
 		{
 			"id": 1000000061,
@@ -87,7 +91,8 @@
 			"id": 1000000070,
 			"constant": "NS_EXT_PORTAL",
 			"name": "Portal",
-			"subpages": true
+			"subpages": true,
+			"content": true
 		},
 		{
 			"id": 1000000071,

@@ -43,7 +43,7 @@
 			"id": 1000000030,
 			"constant": "NS_EXT_BLOG",
 			"name": "Blog",
-			"subpages": true,
+			"subpages": false,
 			"content": true
 		},
 		{
@@ -55,7 +55,7 @@
 			"id": 1000000040,
 			"constant": "NS_EXT_NEWS",
 			"name": "News",
-			"subpages": true,
+			"subpages": false,
 			"content": true
 		},
 		{
